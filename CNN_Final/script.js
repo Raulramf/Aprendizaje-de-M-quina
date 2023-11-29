@@ -57,7 +57,7 @@
     // Cargamos el modelo TensorFlow.js
     async function loadModel() {
         console.log("Loading model...");
-        model = await tf.loadLayersModel('https://raw.githubusercontent.com/PuravG/EMNIST-Classifier/main/EMNIST%20js%20Model/model.json');
+        model = await tf.loadLayersModel('https://raw.githubusercontent.com/Raulramf/Aprendizaje-de-M-quina/main/CNN_Final/model.json/model.json');
         console.log("Model loaded.");
     }
 
